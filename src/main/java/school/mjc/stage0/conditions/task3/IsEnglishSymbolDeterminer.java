@@ -5,7 +5,7 @@ public class IsEnglishSymbolDeterminer {
         if ((symbol >= 'A' && symbol <= 'Z') || (symbol >= 'a' && symbol <= 'z')) {
             System.out.println("English");
         } else {
-            System.out.println("Not English");
+            System.out.println("Non English");
         }
     }
 }

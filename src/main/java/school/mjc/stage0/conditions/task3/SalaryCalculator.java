@@ -17,7 +17,7 @@ public class SalaryCalculator {
             tax = salary * 0.20; // Податок 20%
         }
 
-        int salaryAfterTax = (int) (salary - tax);
+        double salaryAfterTax = salary - tax;
 
         System.out.println(salaryAfterTax);
     }
